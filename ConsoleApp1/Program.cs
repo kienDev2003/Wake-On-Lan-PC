@@ -40,14 +40,26 @@ namespace ConsoleApp1
             string mess = e.Message.Text;
             string chatID = e.Message.Chat.Id.ToString();
 
-            Console.WriteLine(mess + "\n");
-
-            if(mess == "ON")
+            try
             {
-                // Gửi gói tin WOL
-                SendWOL(macAddress, domain);
-                botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {domain}");
+                Console.WriteLine(mess + "\n");
+
+                if (mess == "ON")
+                {
+                    // Gửi gói tin WOL
+                    SendWOL(macAddress, domain);
+                    botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {domain}");
+                }
+                else
+                {
+                    botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
+                }
             }
+            catch( Exception ex)
+            {
+                botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
+            }
+            
         }
 
         static async Task<string> GetIPAddressFromDomain(string domain)
