@@ -21,21 +21,14 @@ namespace ConsoleApp1
         static string domain = ConfigurationManager.AppSettings["domain"].ToString();
         static async Task Main(string[] args)
         {
-            // Chuyển đổi tên miền thành địa chỉ IP
-            string ipAddressStr = await GetIPAddressFromDomain(domain);
-            domain = ipAddressStr;
-
-
             botClient = new TelegramBotClient(token_Bot);
             botClient.StartReceiving();
             botClient.OnMessage += Bot_OnMessage;
 
             Console.ReadLine();
-
-            Console.WriteLine($"Đã gửi gói tin Wake-on-LAN đến địa chỉ MAC: {macAddress} tại địa chỉ IP: {ipAddressStr}");
         }
 
-        private static void Bot_OnMessage(object sender, MessageEventArgs e)
+        private static async void Bot_OnMessage(object sender, MessageEventArgs e)
         {
             string mess = e.Message.Text;
             string chatID = e.Message.Chat.Id.ToString();
@@ -46,18 +39,22 @@ namespace ConsoleApp1
 
                 if (mess == "ON")
                 {
+                    // Chuyển đổi tên miền thành địa chỉ IP
+                    string ipAddressStr = await GetIPAddressFromDomain(domain);
+                    domain = ipAddressStr;
+
                     // Gửi gói tin WOL
                     SendWOL(macAddress, domain);
-                    botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {domain}");
+                    await botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {domain}");
                 }
                 else
                 {
-                    botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
+                    await botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
                 }
             }
             catch( Exception ex)
             {
-                botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
+                await botClient.SendTextMessageAsync(chatID, "Sai cú pháp !");
             }
             
         }
