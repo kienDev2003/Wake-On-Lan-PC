@@ -16,3 +16,21 @@ E:\Project_Dev\Wake On Lan PC\Wake On Lan\ConsoleApp1\obj\Debug\ConsoleApp1.cspr
 E:\Project_Dev\Wake On Lan PC\Wake On Lan\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
 E:\Project_Dev\Wake On Lan PC\Wake On Lan\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 E:\Project_Dev\Wake On Lan PC\Wake On Lan\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\Telegram.Bot.dll
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\bin\Debug\Telegram.Bot.xml
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Huyen Thanh\Desktop\Wake-On-Lan-PC\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

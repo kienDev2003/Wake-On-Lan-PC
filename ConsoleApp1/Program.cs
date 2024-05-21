@@ -18,7 +18,7 @@ namespace ConsoleApp1
 
         static string token_Bot = ConfigurationManager.AppSettings["token_Bot"].ToString();
         static string macAddress = ConfigurationManager.AppSettings["macAddress"].ToString();
-        static string domain = ConfigurationManager.AppSettings["domain"].ToString();
+        
         static async Task Main(string[] args)
         {
             botClient = new TelegramBotClient(token_Bot);
@@ -39,13 +39,14 @@ namespace ConsoleApp1
 
                 if (mess == "ON")
                 {
+                    string domain = ConfigurationManager.AppSettings["domain"].ToString();
+
                     // Chuyển đổi tên miền thành địa chỉ IP
                     string ipAddressStr = await GetIPAddressFromDomain(domain);
-                    domain = ipAddressStr;
 
                     // Gửi gói tin WOL
                     SendWOL(macAddress, domain);
-                    await botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {domain}");
+                    await botClient.SendTextMessageAsync(chatID, $"Đã gửi gói tin Wake-on-LAN đến địa chỉ {ipAddressStr}");
                 }
                 else
                 {

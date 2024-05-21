@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\",
+  "WorkspaceRootPath": "C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|e:\\project_dev\\wake on lan pc\\wake on lan\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\huyen thanh\\desktop\\wake-on-lan-pc\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{35A17C91-66BB-42FE-AECF-432E4AB3A292}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "App.config",
-              "DocumentMoniker": "E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\ConsoleApp1\\App.config",
+              "DocumentMoniker": "C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\ConsoleApp1\\App.config",
               "RelativeDocumentMoniker": "ConsoleApp1\\App.config",
-              "ToolTip": "E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\ConsoleApp1\\App.config",
+              "ToolTip": "C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\ConsoleApp1\\App.config",
               "RelativeToolTip": "ConsoleApp1\\App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "E:\\Project_Dev\\Wake On Lan PC\\Wake On Lan\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\Huyen Thanh\\Desktop\\Wake-On-Lan-PC\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAEwBwAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAADgvy4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T18:07:35.345Z",
               "EditorCaption": ""
